@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+    background: #be85ad;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    margin: 20px 0 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+small {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #480233;
+}
+
+.fa-heart {
+    color: #8e0565;
+}
+
+.loveMe {
+    height: 440px;
+    width: 300px;
+    background: url('https://images.unsplash.com/photo-1687875011300-b500beef74f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80') no-repeat center center/cover;
+    margin: 30px auto;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.35), 0 14px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.loveMe .fa-heart {
+    position: absolute;
+    animation: animate 0.6s ease-in-out;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes animate {
+    to {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
+}
