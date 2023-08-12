@@ -13,17 +13,17 @@ Demo : Click the image above or watch the demo video on [YouTube](https://youtu.
 #### Project 3 : Image Carousel
 Description :  Display a carousel of images with fixed time intervals, offering next and previous navigation using arrow buttons.
 
-Demo : Click the image above or watch the demo video on [YouTube]().
+Demo : Click the image above or watch the demo video on [YouTube](https://youtu.be/aN-V6gcHJJg).
 
 #### Project 4 : Image Slider
 Description : image slider with synchronized next and previous image transitions, while simultaneously altering the background image.
 
-Demo : Click the image above or watch the demo video on [YouTube]().
+Demo : Click the image above or watch the demo video on [YouTube](https://youtu.be/8x49WESoFHs).
 
 #### Project 5 : Password Strength
 Description : A basic form that indicates password strength by gradually reducing the blur effect of the background image until it becomes clear when the password reaches a "strong" level.
 
-Demo : Click the image above or watch the demo video on [YouTube]().
+Demo : Click the image above or watch the demo video on [YouTube](https://youtu.be/1WjIIXu9CWc).
 ## Acknowledgement
 
 - I'd like to give credit to Udemy Course created by Brad Traversy. "50 Projects in 50 Days"  
